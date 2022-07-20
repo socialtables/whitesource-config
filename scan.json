@@ -1,0 +1,18 @@
+{
+  "repositories": [
+    {
+      "fullName": "socialtables/apidoc-swagger",
+      "branchName": "main"
+    }
+    ,
+    {
+      "fullName": "socialtables/account-service",
+      "branchName": "main"
+    }
+    ,
+    {
+      "fullName": "socialtables/saml-protocol",
+      "branchName": "main"
+    }
+  ]
+}
