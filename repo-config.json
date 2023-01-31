@@ -10,12 +10,12 @@
     "vulnerableCheckRunConclusionLevel": "failure"
   },
   "issueSettings": {
-    "minSeverityLevel": "LOW"
+    "minSeverityLevel": "HIGH"
   },
   "remediateSettings": {
     "workflowRules": {
       "enabled": true,
-      "minVulnerabilitySeverity": "LOW"
+      "minVulnerabilitySeverity": "HIGH"
     }
   }
 }
