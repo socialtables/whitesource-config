@@ -19,5 +19,6 @@
       "enabled": true,
       "minVulnerabilitySeverity": "HIGH"
     }
-  }
+  },
+  "excludes": "**/cdk"
 }
