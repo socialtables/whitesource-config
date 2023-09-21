@@ -3,6 +3,10 @@
     {
       "fullName": "socialtables/earth-portal",
       "branchName": "main"
-    }
+    },
+    {
+      "fullName": "socialtables/admin",
+      "branchName": "main"
+    }    
   ]
 }
