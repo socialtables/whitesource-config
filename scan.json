@@ -2,11 +2,13 @@
   "repositories": [
     {
       "fullName": "socialtables/earth-portal",
-      "branchName": "main"
+      "branchName": "main",
+      "uploadScannerLogs": true
     },
     {
       "fullName": "socialtables/admin",
-      "branchName": "main"
+      "branchName": "main",
+      "uploadScannerLogs": true
     }    
   ]
 }
