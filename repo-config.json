@@ -15,6 +15,7 @@
     "minSeverityLevel": "HIGH"
   },
   "remediateSettings": {
+    "extends": ["mergeConfidence:all-badges"],
     "workflowRules": {
       "enabled": true,
       "minVulnerabilitySeverity": "HIGH"
