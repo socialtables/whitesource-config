@@ -3,15 +3,30 @@
     "configMode": "AUTO",
     "configExternalURL": "",
     "projectToken": "",
-    "baseBranches": []
+    "baseBranches": [],
+    "enableLicenseViolations": true,
+    "exploitability": true,
+    "enableReachability": true
+  },
+  "scanSettingsSAST": {
+    "enableScan": true,
+    "scanPullRequests": true
   },
   "checkRunSettings": {
     "displayMode": "diff",
     "showWsInfo": true,
     "useMendCheckNames": true,
-    "vulnerableCheckRunConclusionLevel": "failure"
+    "strictMode": "failure",
+    "strictModeInfo": true,
+    "vulnerableCheckRunConclusionLevel": "success",
+    "licenseCheckRunConclusionLevel": "success"
   },
   "issueSettings": {
+    "minSeverityLevel": "HIGH",
+    "issueType": "DEPENDENCY"
+  },
+  "issueSettingsSAST": {
+    "issueType": "repo",
     "minSeverityLevel": "HIGH"
   },
   "remediateSettings": {
